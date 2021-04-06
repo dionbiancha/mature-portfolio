@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: #131313;
+  background-image: url('../../public/assets/images/line.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  margin: 20px
+}
