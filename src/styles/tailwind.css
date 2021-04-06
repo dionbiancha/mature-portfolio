@@ -7,6 +7,7 @@ html {
   background-image: url('../../public/assets/images/line.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Roboto', sans-serif;
 }
 body {
   margin: 20px

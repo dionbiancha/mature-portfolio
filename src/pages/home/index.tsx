@@ -1,17 +1,19 @@
 import React from 'react'
 import Head from 'next/head'
 
-const Home: React.FC = () => {
-  return (
-    <div>
-      <Head>
-        <title>Dionei Bianchati</title>
-      </Head>
+import Container from '../../components/Container'
+import Header from './header'
+import TopContent from './topContent'
 
-      <h1>ReactJS Structure</h1>
-      <p>A ReactJS + Next.js structure made by Dionei Bianchati.</p>
-    </div>
-  )
-}
+const Home: React.FC = () => (
+  <Container>
+    <Head>
+      <title>Dionei Bianchati</title>
+    </Head>
+
+    <Header />
+    <TopContent />
+  </Container>
+)
 
 export default Home
