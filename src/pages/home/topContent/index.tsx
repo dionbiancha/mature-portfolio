@@ -18,13 +18,28 @@ const TopContent: React.FC = () => {
           I&apos;m Dionei Bianchati
         </h1>
         <div className="flex flex-row sm:self-end m-auto text-3xl text-gray_1 mb-9">
-          <a className="transition duration-500 ease-in-out hover:text-yellow cursor-pointer ml-3">
+          <a
+            className="transition duration-500 ease-in-out hover:text-yellow cursor-pointer ml-3"
+            href="https://github.com/dionbiancha"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiFillGithub />
           </a>
-          <a className="transition duration-500 ease-in-out hover:text-yellow cursor-pointer ml-3">
+          <a
+            className="transition duration-500 ease-in-out hover:text-yellow cursor-pointer ml-3"
+            href="https://www.linkedin.com/in/dionbiancha/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiFillLinkedin />
           </a>
-          <a className="transition duration-500 ease-in-out hover:text-yellow cursor-pointer ml-3">
+          <a
+            className="transition duration-500 ease-in-out hover:text-yellow cursor-pointer ml-3"
+            href="https://twitter.com/dionbiancha"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiOutlineTwitter />
           </a>
         </div>

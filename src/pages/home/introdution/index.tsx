@@ -5,7 +5,7 @@ import { ImMobile } from 'react-icons/im'
 
 const Introdution: React.FC = () => {
   return (
-    <div className="flex sm:flex-row flex-col">
+    <div className="flex sm:flex-row flex-col mb-20">
       <div className="sm:w-2/5 w-full mb-10">
         <h2 className="text-white text-2xl">Introdução</h2>
         <p className="text-white italic font-thin sm:mt-20 mt-10 mb-10">
@@ -21,8 +21,8 @@ const Introdution: React.FC = () => {
           oportunidades de aprendizados.
         </p>
       </div>
-      <div className="flex flex-col items-center sm:w-3/5 w-full">
-        <div className="flex flex-col justify-between bg-gray_3 sm:w-4/5 w-full h-40 mb-5 p-5">
+      <div className="flex flex-col items-end sm:w-3/5 w-full">
+        <div className="flex flex-col justify-between bg-gray_3 rounded-md sm:w-4/5 w-full h-40 mb-5 p-5">
           <div className="flex flex-row items-center text-green_1 text-xl w-full justify-between">
             <h3>Design</h3>
             <FaPencilRuler />
@@ -48,7 +48,7 @@ const Introdution: React.FC = () => {
             </a>
           </div>
         </div>
-        <div className="flex flex-col justify-between bg-gray_3 sm:w-4/5 w-full h-40 mb-5 p-5">
+        <div className="flex flex-col justify-between bg-gray_3 rounded-md sm:w-4/5 w-full h-40 mb-5 p-5">
           <div className="flex flex-row items-center text-green_1 text-xl w-full justify-between">
             <h3>Front-end</h3>
             <MdWeb />
@@ -74,7 +74,7 @@ const Introdution: React.FC = () => {
             </a>
           </div>
         </div>
-        <div className="flex flex-col justify-between bg-gray_3 sm:w-4/5 w-full h-40 mb-5 p-5">
+        <div className="flex flex-col justify-between bg-gray_3 rounded-md sm:w-4/5 w-full h-40 mb-5 p-5">
           <div className="flex flex-row items-center text-green_1 text-xl w-full justify-between">
             <h3>Mobile</h3>
             <ImMobile />
