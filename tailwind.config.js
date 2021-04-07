@@ -10,6 +10,7 @@ module.exports = {
       gray_1: '#E5E5E5',
       gray_2: ' #7C7C7C',
       gray_3: '#191919',
+      gray_4: '#131313',
       black: '#000000',
     }
   },
