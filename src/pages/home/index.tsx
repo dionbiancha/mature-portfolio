@@ -6,6 +6,7 @@ import Header from './header'
 import TopContent from './topContent'
 import Introdution from './introdution'
 import MyClients from './myClients'
+import Depositions from './depositions'
 
 const Home: React.FC = () => (
   <Container>
@@ -17,6 +18,7 @@ const Home: React.FC = () => (
     <TopContent />
     <Introdution />
     <MyClients />
+    <Depositions />
   </Container>
 )
 
