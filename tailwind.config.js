@@ -12,6 +12,7 @@ module.exports = {
       gray_2: ' #7C7C7C',
       gray_3: '#191919',
       gray_4: '#131313',
+      gray_5: '#0D0D0D',
       black: '#000000',
     }
   },
