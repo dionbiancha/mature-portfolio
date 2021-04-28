@@ -5,10 +5,9 @@
 html {
   background-color: #131313;
   background-image: url('../../public/assets/images/line.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
   font-family: 'Roboto', sans-serif;
 }
 body {
-  margin: 20px
+  margin: 20px;
 }

@@ -7,11 +7,11 @@ const Footer: React.FC = () => {
     <div className="w-full bg-gray_5 absolute left-0">
       <Container>
         <div className="flex flex-col items-center justify-center p-16">
-          <p className="text-white font-bold text-2xl mb-10">
+          <p className="text-white font-bold sm:text-2xl text-base mb-10 text-center">
             pronto para trabalhar comigo?
           </p>
           <p className="text-sm text-gray_2 mb-3">Missal, PR, Brasil</p>
-          <p className="text-green_1 font-bold text-4xl mb-5">
+          <p className="text-green_1 font-bold sm:text-4xl text-2xl mb-5">
             contato@dionei.com
           </p>
           <p className="text-sm text-gray_2">(+55) 45 9 8826 9789</p>

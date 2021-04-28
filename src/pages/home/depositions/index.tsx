@@ -2,16 +2,19 @@ import React, { useState } from 'react'
 
 const items = [
   {
-    text: 'Teste 1',
+    text:
+      'Participamos de alguns projetos em hackatons, e pode perceber-se como evolui rápido para aprender uma  nova tecnologia, além de trabalhar muito bem em equipe auxiliando colegas iniciantes ou que não entendem muito bem de tal tecnologia. Me ajudou muito para entender todos conceitos e evoluir para tornar-se um desenvolvedor FullStack, nunca me deixou na mão, impossivel falar algo ruim de um pessoa que consegue ser profissional, interpessoal e empático!',
     ranking: 5.0
   },
   {
-    text: 'Teste 2',
-    ranking: 3.0
+    text:
+      'Baseado na experiencia que tivemos em projetos, Dionei é uma pessoa que trabalha muito bem em equipe, está sempre disposto a aprender e debater ideias, se dedica 100% aos projetos e sempre prezando pela qualidade das entregas.',
+    ranking: 4.7
   },
   {
-    text: 'Teste 3',
-    ranking: 4.0
+    text:
+      'Entrei em contato com o Dionei após algumas pesquisas no Instagram, se demonstrou super prestativo e ajudou em todas as etapas da criação do meu Blog.',
+    ranking: 4.5
   }
 ]
 
@@ -137,16 +140,14 @@ const Depositions: React.FC = () => {
         >
           <img
             className="w-16 h-16 rounded-full sm:block hidden"
-            src="assets/images/me.jpg"
-            alt="Foto de Dionei Bianchati"
+            src="assets/images/laercio.jfif"
+            alt="Foto de Laercio Bubiak"
           />
           <div className="flex flex-col sm:ml-5">
-            <h4 className="italic text-white">Lucas Luvato</h4>
+            <h4 className="italic text-white">Laercio Bubiak</h4>
             <p className="text-sm text-gray_2 italic">
               Co-founder,{' '}
-              <span className="text-green_1 font-bold not-italic">
-                Facebook
-              </span>
+              <span className="text-green_1 font-bold not-italic">RAM</span>
             </p>
           </div>
         </button>
@@ -156,15 +157,15 @@ const Depositions: React.FC = () => {
         >
           <img
             className="w-16 h-16 rounded-full sm:block hidden"
-            src="assets/images/me.jpg"
-            alt="Foto de Dionei Bianchati"
+            src="assets/images/alan.jpg"
+            alt="Foto de Alan Nascimento"
           />
           <div className="flex flex-col sm:mr-0 sm:ml-5 ml-3 mr-3">
-            <h4 className="italic text-white">Lucas Luvato</h4>
+            <h4 className="italic text-white">Alan Nascimento</h4>
             <p className="text-sm text-gray_2 italic">
-              Co-founder,{' '}
+              Academic,{' '}
               <span className="text-green_1 font-bold not-italic">
-                Facebook
+                Uniamérica
               </span>
             </p>
           </div>
@@ -175,15 +176,15 @@ const Depositions: React.FC = () => {
         >
           <img
             className="w-16 h-16 rounded-full sm:block hidden"
-            src="assets/images/me.jpg"
-            alt="Foto de Dionei Bianchati"
+            src="assets/images/amanda.jpg"
+            alt="Foto de Amanda Baldocchi"
           />
           <div className="flex flex-col sm:ml-5">
-            <h4 className="italic text-white">Lucas Luvato</h4>
+            <h4 className="italic text-white">Amanda Baldocchi</h4>
             <p className="text-sm text-gray_2 italic">
-              Co-founder,{' '}
+              Blogger,{' '}
               <span className="text-green_1 font-bold not-italic">
-                Facebook
+                Baldocchi Fashion
               </span>
             </p>
           </div>
