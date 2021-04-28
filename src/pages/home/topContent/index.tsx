@@ -1,4 +1,5 @@
 import React from 'react'
+import Typist from 'react-typist'
 import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from 'react-icons/ai'
 
 const TopContent: React.FC = () => {
@@ -44,10 +45,19 @@ const TopContent: React.FC = () => {
           </a>
         </div>
       </div>
-      <p className="text-white text-xl font-extralight">
-        eu <span className="text-yellow">{'<estudo e escrevo />'}</span> códigos
+      <p className="text-white text-xl font-extralight mb-10">
+        <Typist cursor={{ hideWhenDone: true }}>
+          <Typist.Delay ms={1250} />
+          eu <span className="text-yellow">{'<estudo e escrevo />'}</span> c
+          <Typist.Delay ms={500} />
+          odigos
+          <Typist.Backspace count={6} delay={1000} />
+          <Typist.Delay ms={750} />
+          ódigos
+          <Typist.Delay ms={1250} />
+        </Typist>
       </p>
-      <div className="flex sm:flex-row flex-col mt-10">
+      <div className="flex sm:flex-row flex-col">
         <button className="justify-center inline-flex text-black bg-green_1 border-0 py-2 px-6 focus:outline-none rounded text-lg cursor-pointer">
           Entrar em contato
         </button>
