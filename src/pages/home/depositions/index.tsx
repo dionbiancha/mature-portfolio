@@ -31,7 +31,7 @@ const Depositions: React.FC = () => {
       <section>
         <div className="container px-5 py-16 mx-auto">
           <div className="flex flex-wrap -m-4">
-            <div className="w-full h-full bg-gray_3 sm:p-12 p-5 rounded">
+            <div className="flex flex-col w-full bg-gray_3 sm:p-12 p-5 rounded">
               <div className="flex flex-row">
                 <div className="flex mb-4">
                   <span className="flex items-center">

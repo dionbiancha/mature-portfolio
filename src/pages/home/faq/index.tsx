@@ -84,7 +84,7 @@ const Faq: React.FC = () => {
                   Entre em contato pelo email{' '}
                   <b className="text-yellow">contato@dionei.com</b> ou pelo
                   Whatsap comercial{' '}
-                  <b className="text-yellow">(+55) 45 9 8826 9789</b>. Vou
+                  <b className="text-yellow">(+XX) XX X XXXX XXXX</b>. Vou
                   retornar o contato no prazo de 48h (horario comercial).
                 </span>
               </details>

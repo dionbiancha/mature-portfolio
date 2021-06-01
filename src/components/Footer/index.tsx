@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
           <p className="text-green_1 font-bold sm:text-4xl text-2xl mb-5">
             contato@dionei.com
           </p>
-          <p className="text-sm text-gray_2">(+55) 45 9 8826 9789</p>
+          <p className="text-sm text-gray_2">(+XX) XX X XXXX XXXX</p>
         </div>
       </Container>
       <div className="flex w-full justify-end">

@@ -1,4 +1,5 @@
 import React from 'react'
+import AnimatedNumber from 'react-animated-numbers'
 
 const MyClients: React.FC = () => {
   return (
@@ -41,7 +42,12 @@ const MyClients: React.FC = () => {
         <div className="flex flex-wrap justify-between mt-10">
           <div className="flex flex-row items-center mt-5 sm:w-1/4 w-2/4 justify-center">
             <h2 className="title-font mr-3 font-medium sm:text-5xl text-3xl text-white">
-              2
+              <AnimatedNumber
+                animateToNumber={2}
+                includeComma
+                config={{ tension: 89, friction: 40 }}
+                animationType={'calm'}
+              />
             </h2>
             <p className="font-bold text-gray_2 sm:text-xl sm:leading-6 text-sm">
               anos
@@ -51,7 +57,12 @@ const MyClients: React.FC = () => {
           </div>
           <div className="flex flex-row items-center mt-5 sm:w-1/4 w-2/4 justify-center">
             <h2 className="title-font mr-3 font-medium sm:text-5xl text-3xl text-white">
-              5
+              <AnimatedNumber
+                animateToNumber={5}
+                includeComma
+                config={{ tension: 89, friction: 40 }}
+                animationType={'calm'}
+              />
             </h2>
             <p className="font-bold text-gray_2 sm:text-xl sm:leading-6 text-sm">
               clientes
@@ -61,7 +72,12 @@ const MyClients: React.FC = () => {
           </div>
           <div className="flex flex-row items-center mt-5 sm:w-1/4 w-2/4 justify-center">
             <h2 className="title-font mr-3 font-medium sm:text-5xl text-3xl text-white">
-              16
+              <AnimatedNumber
+                animateToNumber={16}
+                includeComma
+                config={{ tension: 89, friction: 40 }}
+                animationType={'calm'}
+              />
             </h2>
             <p className="font-bold text-gray_2 sm:text-xl sm:leading-6 text-sm">
               projetos
@@ -70,8 +86,14 @@ const MyClients: React.FC = () => {
             </p>
           </div>
           <div className="flex flex-row items-center mt-5 sm:w-1/4 w-2/4 justify-center">
-            <h2 className="title-font mr-3 font-medium sm:text-5xl text-3xl text-white">
-              1K
+            <h2 className="flex flex-row title-font mr-3 font-medium sm:text-5xl text-3xl text-white">
+              <AnimatedNumber
+                animateToNumber={6}
+                includeComma
+                config={{ tension: 89, friction: 40 }}
+                animationType={'calm'}
+              />
+              K
             </h2>
             <p className="font-bold text-gray_2 sm:text-xl sm:leading-6 text-sm">
               xicaras
