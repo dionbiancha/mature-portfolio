@@ -3,7 +3,7 @@ import { BsArrowBarDown } from 'react-icons/bs'
 
 const Faq: React.FC = () => {
   return (
-    <div className="flex flex-col mb-20">
+    <div id="FAQ" className="flex flex-col mb-20">
       <div className="flex sm:flex-row flex-col items-center mt-32">
         <h2 className="text-white text-2xl">FAQ</h2>
         <h3 className="text-gray_2 italic text-sm sm:ml-5">
