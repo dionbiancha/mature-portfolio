@@ -17,32 +17,36 @@ const Faq: React.FC = () => {
               <details className="mb-4">
                 <summary className="flex flex-row mb-3 cursor-pointer focus:outline-none list-none font-semibold  bg-gray_3 rounded-md py-2 px-4">
                   <BsArrowBarDown className="text-green_1 h-5 w-5 mr-5" />
-                  Qual a sua experiência com codificação até agora?
-                </summary>
-
-                <span>Desenvolvimento de projetos Front-end | Mobile.</span>
-              </details>
-              <details className="mb-4">
-                <summary className="flex flex-row mb-3 cursor-pointer focus:outline-none list-none font-semibold  bg-gray_3 rounded-md py-2 px-4">
-                  <BsArrowBarDown className="text-green_1 h-5 w-5 mr-5" />
-                  Qual é a sua linguagem mais forte?
+                  Posso usar sua pagina como modelo?
                 </summary>
 
                 <span>
-                  Atualmente a minha principal linguagem é o JavaScript,
-                  utilizando de seus derivados Framewoks.
+                  Claro! Pode encontrar o código da mesma{' '}
+                  <a href="https://github.com/dionbiancha/mature-portfolio">
+                    <b className="text-yellow">AQUI</b>
+                  </a>
                 </span>
               </details>
               <details className="mb-4">
                 <summary className="flex flex-row mb-3 cursor-pointer focus:outline-none list-none font-semibold  bg-gray_3 rounded-md py-2 px-4">
-                  <BsArrowBarDown className="text-green_1 h-5 w-5 mr-5" />O que
-                  mais entusiasma você no desenvolvimento ?
+                  <BsArrowBarDown className="text-green_1 h-5 w-5 mr-5" />
+                  Como ter minha pergunta respondida no canal?
                 </summary>
 
                 <span>
-                  Aqueles que sabem programar parecem ter poderes mágicos perto
-                  do restante das pessoas. Alguns dizem que a habilidade da
-                  programação é o que se tem de mais próximo de um super poder.
+                  É só lançar a hashtag{' '}
+                  <b className="text-yellow">#DioneiResponde</b> nos comentários
+                  do canal ou no Twitter 😉
+                </span>
+              </details>
+              <details className="mb-4">
+                <summary className="flex flex-row mb-3 cursor-pointer focus:outline-none list-none font-semibold  bg-gray_3 rounded-md py-2 px-4">
+                  <BsArrowBarDown className="text-green_1 h-5 w-5 mr-5" />
+                  Tem alguma comunidade para tirar duvidas?
+                </summary>
+
+                <span>
+                  Ainda não. Mas não fique triste pois ela está em construção 💚
                 </span>
               </details>
             </div>
@@ -50,13 +54,12 @@ const Faq: React.FC = () => {
               <details className="mb-4">
                 <summary className="flex flex-row mb-3 cursor-pointer focus:outline-none list-none font-semibold  bg-gray_3 rounded-md py-2 px-4">
                   <BsArrowBarDown className="text-green_1 h-5 w-5 mr-5" />
-                  Aceita ser sócio da meu produto?
+                  Aceita ser sócio da meu projeto?
                 </summary>
 
                 <span>
-                  Envie um documento detalhando todo seu projeto para{' '}
-                  <b className="text-yellow">contato@dionei.com</b> Retornarei a
-                  resposta no prazo de 48h.{' '}
+                  Envie um documento detalhando todo seu projeto para meu email.
+                  Retornarei a resposta no prazo de 48h.{' '}
                   <i>
                     Obs: Propostas enviadas por outros meios serão ignoradas.
                   </i>
@@ -65,13 +68,12 @@ const Faq: React.FC = () => {
               <details className="mb-4">
                 <summary className="flex flex-row mb-3 cursor-pointer focus:outline-none list-none font-semibold  bg-gray_3 rounded-md py-2 px-4">
                   <BsArrowBarDown className="text-green_1 h-5 w-5 mr-5" />
-                  Tenho garantias quanto as entregas?
+                  Como anunciar meu produto em seu blog?
                 </summary>
 
                 <span>
-                  Sim. Todo cliente está juridicamente protegido por meio de
-                  contratos ou até mesmo formalização via e-mail, garantindo
-                  entregas e evitando calote.
+                  Simples! Envie um email com o assunto &quot;ANUNCIANTE&quot;.
+                  Será um prazer fechar uma parceria 😊
                 </span>
               </details>
               <details className="mb-4">
@@ -84,7 +86,7 @@ const Faq: React.FC = () => {
                   Entre em contato pelo email{' '}
                   <b className="text-yellow">contato@dionei.com</b> ou pelo
                   Whatsap comercial{' '}
-                  <b className="text-yellow">(+XX) XX X XXXX XXXX</b>. Vou
+                  <b className="text-yellow">(+55) 45 9 3618 8144</b>. Vou
                   retornar o contato no prazo de 48h (horario comercial).
                 </span>
               </details>

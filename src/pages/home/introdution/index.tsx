@@ -13,12 +13,11 @@ const Introdution: React.FC = () => {
           real..”
         </p>
         <p className="text-gray_2">
-          Desde o início da minha jornada como desenvolvedor, há quase 2 anos,
-          fiz trabalho remoto para agências e colaborei com pessoas talentosas
-          para criar produtos digitais. Sou silenciosamente confiante,
-          naturalmente curioso e trabalho perpetuamente para melhorar minhas
-          habilidades profissionais, sempre em busca de novas oportunidades de
-          aprendizado.
+          Desde o início da minha jornada como desenvolvedortrabalhei
+          remotamente para agências e colaborei com pessoas talentosas para a
+          criação de produtos digitais. Silenciosamente confiante e naturalmente
+          curioso, trabalho perpetuamente para melhorar minhas habilidades
+          profissionais, sempre em busca de novas oportunidades de aprendizado.
         </p>
       </div>
       <div className="flex flex-col items-end sm:w-3/5 w-full">
