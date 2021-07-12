@@ -1,6 +1,7 @@
 import React from 'react'
 import Typist from 'react-typist'
 import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from 'react-icons/ai'
+import { Link } from 'react-scroll'
 
 const TopContent: React.FC = () => {
   return (
@@ -62,7 +63,9 @@ const TopContent: React.FC = () => {
           Entrar em contato
         </button>
         <button className="sm:mt-0 mt-3 justify-center ml-4 inline-flex text-green_1 border-0 py-2 px-6 focus:outline-none rounded text-lg cursor-pointer">
-          Perguntas frequentes
+          <Link activeClass="active" to="FAQ" spy={true} smooth={true}>
+            Perguntas frequentes
+          </Link>
         </button>
       </div>
     </div>
