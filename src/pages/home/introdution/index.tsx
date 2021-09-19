@@ -3,12 +3,13 @@ import Modal from '../../../components/Modal'
 import { FaPencilRuler } from 'react-icons/fa'
 import { MdWeb } from 'react-icons/md'
 import { ImMobile } from 'react-icons/im'
+import { useModal } from '../../../context/Modal'
 
 const Introdution: React.FC = () => {
-  const [modalState, setModalState] = useState(false)
+  const { modal, setModal } = useModal()
   return (
     <div className="flex sm:flex-row flex-col mb-20">
-      {modalState && <Modal />}
+      {modal && <Modal />}
       <div className="sm:w-2/5 w-full mb-10">
         <h2 className="text-white text-2xl">Introdução</h2>
         <p className="text-white italic font-thin sm:mt-20 mt-10 mb-10">
@@ -34,7 +35,7 @@ const Introdution: React.FC = () => {
           </p>
           <div>
             <a className="transition duration-500 ease-in-out hover:text-yellow text-gray_2 italic underline cursor-pointer inline-flex items-center">
-              <button type="button" onClick={() => setModalState(true)}>
+              <button type="button" onClick={() => setModal(true)}>
                 Projetos
               </button>
               <svg
@@ -62,7 +63,9 @@ const Introdution: React.FC = () => {
           </p>
           <div>
             <a className="transition duration-500 ease-in-out hover:text-yellow text-gray_2 italic underline cursor-pointer inline-flex items-center">
-              Projetos
+              <button type="button" onClick={() => setModal(true)}>
+                Projetos
+              </button>
               <svg
                 className="w-4 h-4 ml-2"
                 viewBox="0 0 24 24"
@@ -88,7 +91,9 @@ const Introdution: React.FC = () => {
           </p>
           <div>
             <a className="transition duration-500 ease-in-out hover:text-yellow text-gray_2 italic underline cursor-pointer inline-flex items-center">
-              Projetos
+              <button type="button" onClick={() => setModal(true)}>
+                Projetos
+              </button>
               <svg
                 className="w-4 h-4 ml-2"
                 viewBox="0 0 24 24"
