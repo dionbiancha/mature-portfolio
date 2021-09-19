@@ -17,7 +17,7 @@ const Modal: React.FC = () => {
   return (
     <>
       <div className="flex items-center justify-center w-full h-screen fixed bg-black bg-opacity-70 inset-0 z-50">
-        <div className="p-8 rounded-xl bg-gray_3 flex justify-center items-center flex-row text-center relative">
+        <div className="sm:w-7/12 w-10/12 p-8 rounded-xl bg-gray_3 flex flex-wrap justify-center items-center flex-row text-center relative">
           <img
             className="w-10 h-10 absolute top-0 right-0 -m-3 cursor-pointer"
             src="assets/images/close-button.png"

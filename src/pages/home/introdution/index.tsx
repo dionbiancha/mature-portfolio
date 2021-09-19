@@ -17,7 +17,7 @@ const Introdution: React.FC = () => {
           real..”
         </p>
         <p className="text-gray_2">
-          Desde o início da minha jornada como desenvolvedortrabalhei
+          Desde o início da minha jornada como desenvolvedor trabalhei
           remotamente para agências e colaborei com pessoas talentosas para a
           criação de produtos digitais. Silenciosamente confiante e naturalmente
           curioso, trabalho perpetuamente para melhorar minhas habilidades
@@ -35,7 +35,11 @@ const Introdution: React.FC = () => {
           </p>
           <div>
             <a className="transition duration-500 ease-in-out hover:text-yellow text-gray_2 italic underline cursor-pointer inline-flex items-center">
-              <button type="button" onClick={() => setModal(true)}>
+              <button
+                className="focus:outline-none"
+                type="button"
+                onClick={() => setModal(true)}
+              >
                 Projetos
               </button>
               <svg
@@ -63,7 +67,11 @@ const Introdution: React.FC = () => {
           </p>
           <div>
             <a className="transition duration-500 ease-in-out hover:text-yellow text-gray_2 italic underline cursor-pointer inline-flex items-center">
-              <button type="button" onClick={() => setModal(true)}>
+              <button
+                className="focus:outline-none"
+                type="button"
+                onClick={() => setModal(true)}
+              >
                 Projetos
               </button>
               <svg
@@ -91,7 +99,11 @@ const Introdution: React.FC = () => {
           </p>
           <div>
             <a className="transition duration-500 ease-in-out hover:text-yellow text-gray_2 italic underline cursor-pointer inline-flex items-center">
-              <button type="button" onClick={() => setModal(true)}>
+              <button
+                className="focus:outline-none"
+                type="button"
+                onClick={() => setModal(true)}
+              >
                 Projetos
               </button>
               <svg
