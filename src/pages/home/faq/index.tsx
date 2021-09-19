@@ -30,7 +30,7 @@ const Faq: React.FC = () => {
               <details className="mb-4">
                 <summary className="flex flex-row mb-3 cursor-pointer focus:outline-none list-none font-semibold  bg-gray_3 rounded-md py-2 px-4">
                   <BsArrowBarDown className="text-green_1 h-5 w-5 mr-5" />
-                  Me Tira Uma Dúvida?
+                  Me tira uma dúvida?
                 </summary>
 
                 <span>
