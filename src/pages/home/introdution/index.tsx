@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Modal from '../../../components/Modal'
 import { FaPencilRuler } from 'react-icons/fa'
 import { MdWeb } from 'react-icons/md'
 import { ImMobile } from 'react-icons/im'
+import { useModal } from '../../../context/Modal'
 
 const Introdution: React.FC = () => {
+  const { modal, setModal } = useModal()
   return (
     <div className="flex sm:flex-row flex-col mb-20">
+      {modal && <Modal />}
       <div className="sm:w-2/5 w-full mb-10">
         <h2 className="text-white text-2xl">Introdução</h2>
         <p className="text-white italic font-thin sm:mt-20 mt-10 mb-10">
@@ -13,7 +17,7 @@ const Introdution: React.FC = () => {
           real..”
         </p>
         <p className="text-gray_2">
-          Desde o início da minha jornada como desenvolvedortrabalhei
+          Desde o início da minha jornada como desenvolvedor trabalhei
           remotamente para agências e colaborei com pessoas talentosas para a
           criação de produtos digitais. Silenciosamente confiante e naturalmente
           curioso, trabalho perpetuamente para melhorar minhas habilidades
@@ -31,7 +35,13 @@ const Introdution: React.FC = () => {
           </p>
           <div>
             <a className="transition duration-500 ease-in-out hover:text-yellow text-gray_2 italic underline cursor-pointer inline-flex items-center">
-              Projetos
+              <button
+                className="focus:outline-none"
+                type="button"
+                onClick={() => setModal(true)}
+              >
+                Projetos
+              </button>
               <svg
                 className="w-4 h-4 ml-2"
                 viewBox="0 0 24 24"
@@ -57,7 +67,13 @@ const Introdution: React.FC = () => {
           </p>
           <div>
             <a className="transition duration-500 ease-in-out hover:text-yellow text-gray_2 italic underline cursor-pointer inline-flex items-center">
-              Projetos
+              <button
+                className="focus:outline-none"
+                type="button"
+                onClick={() => setModal(true)}
+              >
+                Projetos
+              </button>
               <svg
                 className="w-4 h-4 ml-2"
                 viewBox="0 0 24 24"
@@ -83,7 +99,13 @@ const Introdution: React.FC = () => {
           </p>
           <div>
             <a className="transition duration-500 ease-in-out hover:text-yellow text-gray_2 italic underline cursor-pointer inline-flex items-center">
-              Projetos
+              <button
+                className="focus:outline-none"
+                type="button"
+                onClick={() => setModal(true)}
+              >
+                Projetos
+              </button>
               <svg
                 className="w-4 h-4 ml-2"
                 viewBox="0 0 24 24"

@@ -17,11 +17,11 @@ const Faq: React.FC = () => {
               <details className="mb-4">
                 <summary className="flex flex-row mb-3 cursor-pointer focus:outline-none list-none font-semibold  bg-gray_3 rounded-md py-2 px-4">
                   <BsArrowBarDown className="text-green_1 h-5 w-5 mr-5" />
-                  Posso usar sua pagina como modelo?
+                  Posso usar seu site como modelo?
                 </summary>
 
                 <span>
-                  Claro! Pode encontrar o código da mesma{' '}
+                  Claro! Pode encontrar o código do mesmo{' '}
                   <a href="https://github.com/dionbiancha/mature-portfolio">
                     <b className="text-yellow">AQUI</b>
                   </a>
@@ -30,23 +30,19 @@ const Faq: React.FC = () => {
               <details className="mb-4">
                 <summary className="flex flex-row mb-3 cursor-pointer focus:outline-none list-none font-semibold  bg-gray_3 rounded-md py-2 px-4">
                   <BsArrowBarDown className="text-green_1 h-5 w-5 mr-5" />
-                  Como ter minha pergunta respondida no canal?
+                  Me Tira Uma Dúvida?
                 </summary>
 
                 <span>
-                  É só lançar a hashtag{' '}
-                  <b className="text-yellow">#DioneiResponde</b> nos comentários
-                  do canal ou no Twitter 😉
-                </span>
-              </details>
-              <details className="mb-4">
-                <summary className="flex flex-row mb-3 cursor-pointer focus:outline-none list-none font-semibold  bg-gray_3 rounded-md py-2 px-4">
-                  <BsArrowBarDown className="text-green_1 h-5 w-5 mr-5" />
-                  Tem alguma comunidade para tirar duvidas?
-                </summary>
-
-                <span>
-                  Ainda não. Mas não fique triste pois ela está em construção 💚
+                  É só entrar em contato no{' '}
+                  <a href="https://www.instagram.com/dionbiancha/">
+                    <b className="text-yellow">Instagram</b>
+                  </a>{' '}
+                  ou no{' '}
+                  <a href="https://twitter.com/dionbiancha">
+                    <b className="text-yellow">Twitter</b>
+                  </a>
+                  , vou ajudar no que for possivel 😊
                 </span>
               </details>
             </div>
@@ -58,36 +54,19 @@ const Faq: React.FC = () => {
                 </summary>
 
                 <span>
-                  Envie um documento detalhando todo seu projeto para meu email.
-                  Retornarei a resposta no prazo de 48h.{' '}
-                  <i>
-                    Obs: Propostas enviadas por outros meios serão ignoradas.
-                  </i>
+                  Por motivos pessoais não estou aceitando no momento 😞
                 </span>
               </details>
               <details className="mb-4">
                 <summary className="flex flex-row mb-3 cursor-pointer focus:outline-none list-none font-semibold  bg-gray_3 rounded-md py-2 px-4">
                   <BsArrowBarDown className="text-green_1 h-5 w-5 mr-5" />
-                  Como anunciar meu produto em seu blog?
-                </summary>
-
-                <span>
-                  Simples! Envie um email com o assunto &quot;ANUNCIANTE&quot;.
-                  Será um prazer fechar uma parceria 😊
-                </span>
-              </details>
-              <details className="mb-4">
-                <summary className="flex flex-row mb-3 cursor-pointer focus:outline-none list-none font-semibold  bg-gray_3 rounded-md py-2 px-4">
-                  <BsArrowBarDown className="text-green_1 h-5 w-5 mr-5" />
-                  Como posso me comunicar com você?
+                  Como posso entrar em contato?
                 </summary>
 
                 <span>
                   Entre em contato pelo email{' '}
-                  <b className="text-yellow">contato@dionei.com</b> ou pelo
-                  Whatsap comercial{' '}
-                  <b className="text-yellow">(+55) 45 9 3618 8144</b>. Vou
-                  retornar o contato no prazo de 48h (horario comercial).
+                  <b className="text-yellow">contato@dionei.com</b> ou em
+                  qualquer uma de minhas redes sociais.
                 </span>
               </details>
             </div>

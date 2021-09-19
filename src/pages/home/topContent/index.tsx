@@ -2,8 +2,10 @@ import React from 'react'
 import Typist from 'react-typist'
 import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from 'react-icons/ai'
 import { Link } from 'react-scroll'
+import { useModal } from '../../../context/Modal'
 
 const TopContent: React.FC = () => {
+  const { setModal } = useModal()
   return (
     <div className="flex flex-col justify-center sm:items-start items-center sm:text-left text-center h-screen">
       <img
@@ -59,7 +61,11 @@ const TopContent: React.FC = () => {
         </Typist>
       </p>
       <div className="flex sm:flex-row flex-col">
-        <button className="justify-center inline-flex text-black bg-green_1 border-0 py-2 px-6 focus:outline-none rounded text-lg cursor-pointer">
+        <button
+          className="justify-center inline-flex text-black bg-green_1 border-0 py-2 px-6 focus:outline-none rounded text-lg cursor-pointer"
+          type="button"
+          onClick={() => setModal(true)}
+        >
           Entrar em contato
         </button>
         <button className="sm:mt-0 mt-3 justify-center ml-4 inline-flex text-green_1 border-0 py-2 px-6 focus:outline-none rounded text-lg cursor-pointer">
