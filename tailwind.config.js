@@ -10,10 +10,11 @@ module.exports = {
       yellow: '#E1C116',
       gray_1: '#E5E5E5',
       gray_2: ' #7C7C7C',
-      gray_3: '#191919',
-      gray_4: '#131313',
+      gray_3: '#161B22',
+      gray_4: '#0D1117',
       gray_5: '#0D0D0D',
       black: '#000000',
+      blue_1: '#1F6FEB',
     }
   },
   variants: {
